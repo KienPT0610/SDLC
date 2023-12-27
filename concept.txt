@@ -1,0 +1,44 @@
+*Requirement:
+    - Participants
+        Stakeholders: customer,...;
+        Business analysts: Phân tích nghiệp vụ.(BA)
+        Project manager: 
+        Techniacal Team: dev
+        Quanlity assurance (QA): tester 
+        Designers (UI/UX):
+
+        Output: 
+            - Requirement documentation:
+        
+*Requirement analysis:
+    - BA (business analysts):
+    - PM (Project manager):
+    - System analysts, architects: Lường trước các công nghệ (dùng ngôn ngữ gì, Framwork gì? eav hay cổ điển)
+    - QA:
+
+    Output:
+        - Use case:
+        - Class:
+        - Sequence:
+        - Activity:
+
+*Design:
+    - UI, UX designer: thiết kế giao diện hệ thống.
+    - SA/TL: thiết kế kiến trúc của hệ thống, structure, tech stack, data flow, database design, tương tác với hệ thống khác như thế nào?
+    - High level design:
+    - PM:
+
+    Output:
+
+*Implementation:
+    - PM:
+    - Developer: Frontend
+    - Engineer: Backend
+    - Devops: 
+    - FE: dùng analysis, design UI/UX;
+    - BE: dùng analysis, system design.
+
+*Testing:
+    - QA/ tester: kiểm tra các tính năng đã đc code, có đáp ứng requirement chưa;
+
+*
