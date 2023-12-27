@@ -41,4 +41,5 @@
 *Testing:
     - QA/ tester: kiểm tra các tính năng đã đc code, có đáp ứng requirement chưa;
 
-*
+*Handover:
+*Maintenance:
