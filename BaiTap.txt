@@ -1,0 +1,25 @@
+@Những project thích hợp cho waterfall:
+    + Yêu cầu của dự án đã được xác định rõ ràng và không thay đổi nhiều trong quá trình phát triển:
+        Phải hiểu rõ các yêu cầu dự án trước khi triển khai, nếu dự án có yêu cầu thay đổi quá nhiều trong quá trình
+        phát triển, mô hình này có thể không phù hợp.
+    + Những dự án có quy mô lớn và phức tạp: giúp chia dự án thành các giai đoạn nhỏ, dễ quản lí.
+    + Dự án có chi phí và thời gian hạn chế: Giúp dự án được triển khai theo đúng kế hoạch, hạn chế phát sinh chi phí và thời gian.
+
+@Mô hình Waterfall phù hợp với các lĩnh vực:
+    + Phát triển phần mềm.
+        Tuy nhiên 1 số phần mềm thay đổi theo yêu cầu người dùng thì Agle sẽ phù hợp hơn vì mô hình này có thể thay đổi linh hoạt.
+    + Xây dựng công trình.
+    + Thiết kế sản phẩm.
+    + Tổ chức sự kiện.
+    + Lập kế hoạch kinh doanh.
+
+@Lý do Waterfall chỉ dùng trong 1 số lĩnh vực:
+    * Vì do những hạn chế.
+    + Khó thay đổi yêu cầu của dự án trong quá trình phát triển: 
+        Nếu yêu cầu của dự án thay đổi trong quá trình phát triển, các giai đoạn trước đó sẽ phải được thay đổi theo, 
+        gây tốn kém thời gian và chi phí.
+    + Do khó thay đổi yêu cầu nên Waterfall khó thích ứng với những thay đổi của thị trường:
+        Nếu thị trường thay đổi nhanh chóng, mô hình Waterfall có thể không thể đáp ứng được.
+    + Khó phát huy sự sáng tạo của đội ngũ phát triển:
+        Vì các yêu cầu dự án thường được xác định trước khi triển khai.
+    
