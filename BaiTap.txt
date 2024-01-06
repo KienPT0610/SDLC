@@ -23,3 +23,17 @@
     + Khó phát huy sự sáng tạo của đội ngũ phát triển:
         Vì các yêu cầu dự án thường được xác định trước khi triển khai.
     
+Ex:
+    @Dự án xây dựng tòa nhà cao tầng:
+
+    Yêu cầu của dự án đã được xác định rõ ràng: Trước khi bắt đầu xây dựng, các yêu cầu của dự án cần được xác định rõ ràng, bao gồm các thông số kỹ thuật, quy mô, thời gian, chi phí,...
+    Dự án có chi phí và thời gian hạn chế: Mô hình Waterfall giúp đảm bảo tiến độ và chất lượng của dự án, giúp tiết kiệm chi phí và thời gian.
+    
+    Các giai đoạn theo mô hình Waterfall:
+
+    Giai đoạn 1: Khởi động: Giai đoạn này bao gồm các hoạt động như xác định yêu cầu, lập kế hoạch, thành lập đội ngũ,...
+    Giai đoạn 2: Thiết kế: Giai đoạn này bao gồm các hoạt động như thiết kế kiến trúc, thiết kế kết cấu, thiết kế điện, thiết kế điện tử,...
+    Giai đoạn 3: Thi công: Giai đoạn này bao gồm các hoạt động như thi công móng, thi công phần thân, thi công phần mái,...
+    Giai đoạn 4: Kiểm tra và nghiệm thu: Giai đoạn này bao gồm các hoạt động như kiểm tra chất lượng, nghiệm thu công trình.
+    
+    Mô hình Waterfall đã được áp dụng thành công cho nhiều dự án xây dựng tòa nhà cao tầng trên thế giới. Mô hình này giúp đảm bảo tiến độ và chất lượng của dự án, giúp tiết kiệm chi phí và thời gian.
