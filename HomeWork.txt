@@ -1,0 +1,88 @@
+@Vòng đời phát triển phần mềm:
+    1. Analysis:
+        - Thu thập và xác định rõ các yêu cầu của người dùng.
+        - Nghiên cứu thị trường để xác định các chức năng để phục vụ cho người dùng tốt hơn.
+        - Sau đó tổng hợp thành 1 tài liệu (tài liệu đặc tả yêu cầu phần mềm) bao gồm:
+            + Các yêu cầu về chức năng, giao diện, hiệu suất,… 
+            + nhiệm vụ của từng developer và các thông số thử nghiệm để tạo nên một sản phẩm chất lượng.
+    2. Design:
+        - Các nhà phát triển phần mềm sẽ vạch ra kiến trúc tổng thể cần thiết để tạo ra phần mềm.
+        - Ngoài ra, các yếu tố như: ngân sách, thời gian, công nghệ áp dụng, mức độ rủi ro,… cũng được xác định rõ ràng.
+        - Kết quả cuối cùng của giai đoạn này là các đặc điểm kỹ thuật thiết kế. Nó bao gồm các chỉ định về thiết kế kiến trúc, yêu cầu hệ thống cũng như đại diện Back-end, Front-end,…
+    3. Development:
+        - Bắt đầu viết code và triển khai các thông số thiết kế đã đưa ra ở bước 2.
+        - Sau đó developers sẽ deploy (triển khai) sản phẩm trong môi trường phát triển.
+    4. Testing:
+        - Các tester sẽ tạo ra các tình huống kiểm thử (test case) và tiến hành kiểm thử phần mềm.
+        - Tester sẽ cập nhật các lỗi vào công cụ quản lý và thông báo các bug (lỗi) cho developers.
+    5. Deployment:
+        - Sau khi hoàn tất kiểm thử, phần mềm không còn lỗi, các nhà phát triển sẽ triển khai sản phẩm trên Production environment.
+        (môi trường chứa ứng dụng thật, chạy với người dùng thật, dữ liệu thật và cung cấp sản phẩm hoàn thiện cho khách hàng)
+    6. Maintenance:
+        - Quản lý và giải quyết tất cả các vấn để của người dùng gặp phải.
+        - Phần mềm được cập nhật sau khi triển khai để loại bỏ các lỗi và cải thiện hiệu suất.
+
+@WaterFall:
+    yêu cầu đc xác định rõ ràng
+    môi trường phát triển ổn định
+    dễ hiểu, triển khai
+    dễ theo dõi tiến trình
+    có tài liệu thiết kế sớm
+
+    * Đặc điểm:
+        - Áp dụng theo trình tự nhất định của các giai đoạn phát triển phần mềm.
+        - Bước tiếp theo không thể bắt đầu nếu bước trước chưa hoàn thành.
+        - Mỗi giai đoạn đều được ghi chép lại một cách chặt chẽ.
+        - Chỉ có thể kiểm thử ở giai đoạn hoàn thiện sản phẩm cuối cùng nên việc kiểm tra thường diễn ra gấp rút. 
+          Do đó mà việc sửa lỗi cũng gặp nhiều khó khăn, tốn kém và mất thời gian.
+    * Áp dụng:
+        - Các dự án có quy mô vừa và nhỏ với các yêu cầu được đưa ra rõ ràng và không thay đổi.
+        - Các dự án yêu cầu kiểm soát chặt chẽ, ngân sách có thể dự đoán trước.
+        - Các dự án cần tuân theo nhiều nguyên tắc và quy định khác nhau như các dự án về chăm sóc sức khỏe.
+
+@Agile:
+    * Triết lí Agile:
+        Nhanh chóng thích ứng, phản hồi với sự thay đổi.
+    * Bốn tuyên ngôn và 12 nguyên tắc:
+        - Cá nhân và sự tương tác > quy trình, công cụ. 
+            + Có thể support nhau khi lỗi
+        - Phần mềm chạy tốt > tài liệu đầy đủ. 
+            + use case, class, sequence, activity, ERB
+        - Cộng tác với khách hàng > đàm phán hợp đồng.
+            + Khách hàng giống như 1 thành viên trong team. Có thể quan sát sản phẩm, sp sẽ hoàn thành theo time sớm. 
+            Customer sẽ nhìn được vấn đề của sản phẩm sớm hơn. 
+            Dễ điều chỉnh requirement.
+        - Phản hồi với sự thay đổi > bám theo kế hoạch.
+    * 12 nguyên tắc:
+        + Ưu tiên cao nhất là thỏa mãn khách hàng.
+        + Chào đón việc thay đổi yêu cầu các quy trình linh hoạt trong thay đổi trong cạnh tranh của khách hàng.
+        + Thường xuyên chuyển giao phần mềm chạy tốt cho khách hàng từ vài tuần đến vài tháng, ưu tiên khoảng time tốt hơn.
+        + Nhà kinh doanh và nhà phát triển làm việc cùng nhau hàng ngày trong suốt dự án.
+        + Xây dựng các dự án xung quanh các cá nhân, cung cấp cho họ môi trường và sự hỗ trợ cần thiết và tin tưởng họ.
+        + Hội thoại trực tiếp là phương pháp tốt nhất để truyền đạt thông tin nội bộ.
+        + Phần mềm chạy tốt là thước đo của tiến độ.
+        + Các quy trình linh hoạt thúc đẩy phát triển bền vững.
+        + Liên tục quan tâm đến các kỹ thuật, thiết kế tốt để gia tăng sự linh hoạt.
+        + Sự đơn giản, nghệ thuật tối đa hóa lượng công việc chưa xong.
+        + Các kiến trúc tốt, yêu cầu tốt nhất, thiết kế tốt nhất được làm ra bởi các nhóm tổ chức.
+        + Nhóm phát triển sẽ thường xuyên nghĩ về việc làm sao để trở nên hiệu quả hơn, họ điều chỉnh và thay đổi các hành vi của mình.
+    * Chiếc ô Agile:
+        - Phương pháp:
+            Scrum:
+            Ex programming:
+            meeting
+            planning
+            stand up
+            review
+            retrospective 
+            KanBan
+            ScrumBan
+            Spotify
+            LSD
+    * Tools:
+        jira
+        trello
+        github
+        excel
+
+
